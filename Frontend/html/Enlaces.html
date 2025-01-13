@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: #a5d2ff;
+        }
+        #Portada{
+            width: 1000px;
+            height:300px; 
+            margin: 10px auto 10px;
+            display: block;
+            display: table-cell;
+            border-radius: 5px;
+            border: 1px solid rgb(18, 100, 233);
+            
+        }
+        #bien{
+            text-align: center;
+            background-color: aqua;
+            width: 1000px;
+            margin: 10px auto 10px;
+            border-radius: 5px;
+            border: 1px solid rgb(18, 100, 233);
+        }
+        #links{
+            text-align: center;
+        }
+        #testo{
+            margin: 10px;
+        }
+        button{
+            background-color: rgb(18, 100, 233);
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .flexbox{
+            display: flex;
+            background-color: rgb(176, 206, 255);
+            border-radius: 5px;
+            border: 1px solid rgb(18, 100, 233);
+        }
+    </style>
+</head>
+<body>
+   <h1 id="bien">Bienvenidos</h1>
+
+   <img id="Portada" src="https://static1.srcdn.com/wordpress/wp-content/uploads/2023/03/pokemon-sv-gengar-paldea.jpg" alt="Gengar"><br>
+   <div id="links">
+   <a id="testo" href="https://specificity.keegan.st/"><button>Especificidad</button>  </a>
+
+    <a id="testo" href='https://htmlcolorcodes.com/'><button>Colores</button></a>
+
+    <a id="testo" href="https://htmlreference.io/"><button>Referencia</button></a>
+    <a id="testo" href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/"><button>Flexbox</button></a>
+</div> 
+<div class="flexbox"> <!– Trabajando con flexbox –>
+    <h3>Python</h3>
+    <div id="linkespython">
+        <a href="https://www.python.org/"><button>Python</button></a>
+        <a href="https://www.w3schools.com/python/"><button>W3Schools</button></a>
+        <a href="https://www.learnpython.org/"><button>Learn Python</button></a>
+
+    </div>
+
+</div>
+</body>
+</html>
